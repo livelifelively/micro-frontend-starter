@@ -55,6 +55,11 @@ A Monorepo with multiple packages and a shared build, test, and release process.
 - [Storybook](https://storybook.js.org/) - UI Component Environment
 - [Jest](https://jestjs.io/)  -  Unit/Snapshot Testing
 
+## Lerna
+
+- `lerna changed` - Show which packages have changed.
+- `lerna diff` - Show specifically what files have cause the packages to change.
+
 ## Linting and Formatting
 
 All formatting and linting should be taken care of for you using [ESLint](https://eslint.org/), and [Prettier](https://prettier.io/). You should also consider installing an extension for CSS syntax highlighting.
