@@ -1,14 +1,14 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// import { SideNavigation, TopNavigation } from '@qbila/navigations';
+import Navigation from '@qbila/navigations';
 
 const Shell = () => {
   return (
     <div>
-      {/* <SideNavigation />
-      <TopNavigation /> */}
       HELLO WORLD
+      <Navigation />
     </div>
   );
 };

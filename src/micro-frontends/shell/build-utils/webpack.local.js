@@ -9,10 +9,10 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new Dotenv({
-      path: './.env.development',
+      path: './.development.env',
     }),
     new HtmlWebpackPlugin({
-      title: 'Companies to target',
+      title: 'Qbila',
       template: './public/index.html',
     }),
   ],
@@ -25,7 +25,6 @@ module.exports = {
     path: path.resolve(__dirname, '../', 'dist'),
     publicPath: '/',
     filename: 'index.js',
-    library: 'CompaniesToTarget',
     libraryTarget: 'umd',
     umdNamedDefine: true,
   },
