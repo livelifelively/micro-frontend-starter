@@ -48,12 +48,12 @@ We have divided our packages into following. All packages reside in `/src`. Each
 
 A Monorepo with multiple packages and a shared build, test, and release process.
 
-- 🐉 [Lerna](https://lernajs.io/)  - The Monorepo manager
-- 📦 [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)  -  Sane multi-package management
-- 🚀 [React](https://reactjs.org/)  -  JavaScript library for user interfaces
-- 🛠 [Babel](https://babeljs.io/)  -  Compiles next-gen JavaScript
-- 📖 [Storybook](https://storybook.js.org/) - UI Component Environment
-- 🃏 [Jest](https://jestjs.io/)  -  Unit/Snapshot Testing
+- [Lerna](https://lernajs.io/)  - The Monorepo manager
+- [Yarn Workspaces](https://yarnpkg.com/lang/en/docs/workspaces/)  -  Sane multi-package management
+- [React](https://reactjs.org/)  -  JavaScript library for user interfaces
+- [Babel](https://babeljs.io/)  -  Compiles next-gen JavaScript
+- [Storybook](https://storybook.js.org/) - UI Component Environment
+- [Jest](https://jestjs.io/)  -  Unit/Snapshot Testing
 
 ## Linting and Formatting
 
