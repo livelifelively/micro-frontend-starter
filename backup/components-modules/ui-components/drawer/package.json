@@ -1,0 +1,21 @@
+{
+  "name": "@qbila/uic-drawer",
+  "version": "0.1.0",
+  "main": "lib/drawer.js",
+  "module": "src/drawer.js",
+  "devDependencies": {
+    "@storybook/addon-actions": "^6.0.28",
+    "antd": "^4.5.4",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

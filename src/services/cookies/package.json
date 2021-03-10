@@ -1,6 +1,6 @@
 {
   "name": "@qbila/s-cookies",
-  "version": "1.0.52",
+  "version": "0.1.0",
   "main": "lib/cookies.js",
   "module": "src/cookies.js",
   "dependencies": {

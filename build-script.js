@@ -26,13 +26,16 @@ const path = require('path');
     const targetPath = element.substring(0, element.length - packageJson.length);
     const packageJSONData = fs.readFileSync(element);
     const packageJSONDataParsed = JSON.parse(packageJSONData);
+    console.log(packageJSONDataParsed.name);
+
     // console.log(element);
     // console.log(packageJSONDataParsed);
-    console.log(packageJSONDataParsed.name);
     // console.log(targetPath + packageJSONDataParsed.main);
     // console.log(targetPath + packageJSONDataParsed.module);
+
     const absOutputPath = path.resolve(__dirname, targetPath, 'lib');
 
+    // #TODO pass buildENV as variable.
     // const buildEnv = 'testing';
     const buildEnv = 'production';
 

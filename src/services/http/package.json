@@ -1,11 +1,11 @@
 {
   "name": "@qbila/s-http",
-  "version": "1.0.52",
+  "version": "0.1.0",
   "main": "lib/http.js",
   "module": "src/http.js",
   "dependencies": {
-    "@qbila/s-app-error": "^0.1.70",
-    "@qbila/s-cookies": "^1.0.52",
+    "@qbila/s-app-error": "^0.1.0",
+    "@qbila/s-cookies": "^0.1.0",
     "axios": "^0.20.0"
   },
   "devDependencies": {

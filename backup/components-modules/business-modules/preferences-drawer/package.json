@@ -1,0 +1,30 @@
+{
+  "name": "@qbila/bm-preferences-drawer",
+  "version": "0.1.0",
+  "main": "lib/preferences-drawer.js",
+  "module": "src/preferences-drawer.js",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@qbila/api-companies-to-target": "^0.1.0",
+    "@qbila/cc-constants": "^0.1.0",
+    "@qbila/uic-drawer": "^0.1.0",
+    "@qbila/uic-drawer-title": "^0.1.0",
+    "@qbila/uim-multi-select": "^0.1.0"
+  },
+  "devDependencies": {
+    "antd": "^4.5.4",
+    "lodash": "^4.17.20",
+    "moment": "^2.27.0",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

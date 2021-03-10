@@ -1,6 +1,6 @@
 {
   "name": "@qbila/s-local-storage",
-  "version": "0.1.70",
+  "version": "0.1.0",
   "main": "lib/local-storage.js",
   "module": "src/local-storage.js"
 }

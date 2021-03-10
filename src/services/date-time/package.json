@@ -1,6 +1,6 @@
 {
   "name": "@qbila/s-date-time",
-  "version": "0.1.70",
+  "version": "0.1.0",
   "main": "lib/date-time.js",
   "module": "src/date-time.js",
   "devDependencies": {
