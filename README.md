@@ -1,4 +1,4 @@
-# Slintel Dashboard
+# Micro Frontend Starter
 
 ## Folder Structure and Reasoning
 
