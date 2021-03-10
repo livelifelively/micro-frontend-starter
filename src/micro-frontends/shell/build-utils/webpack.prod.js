@@ -30,7 +30,7 @@ module.exports = {
     moment: 'moment',
     lodash: 'lodash',
     'prop-types': 'prop-types',
-    '@slintel/ui-services': '@slintel/ui-services',
+    '@qbila/ui-services': '@qbila/ui-services',
   },
   // build the aggregated component only.
   entry: './src/app.js',

@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/uic-infinite-scroll-list",
+  "name": "@qbila/uic-infinite-scroll-list",
   "version": "0.1.71",
   "main": "lib/infinite-scroll-list.js",
   "module": "src/infinite-scroll-list.js",

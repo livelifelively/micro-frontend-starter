@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/bc-news-themes-dropdown",
+  "name": "@qbila/bc-news-themes-dropdown",
   "version": "0.1.72",
   "main": "lib/news-themes-dropdown.js",
   "module": "src/news-themes-dropdown.js",

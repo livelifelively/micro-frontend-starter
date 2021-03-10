@@ -6,7 +6,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import CustomEmpty from '@slintel/uic-no-items';
+import CustomEmpty from '@qbila/uic-no-items';
 
 function EmptyNewsFeedText(props) {
   const { togglePrefsDrawer, preferencesOrFilterOrGlobal, preferencesUpdatedGeneratingNewsFeed } = props;

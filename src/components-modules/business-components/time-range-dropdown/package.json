@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/bc-time-ranges-dropdown",
+  "name": "@qbila/bc-time-ranges-dropdown",
   "version": "0.1.72",
   "main": "lib/time-range-dropdown.js",
   "module": "src/time-range-dropdown.js",

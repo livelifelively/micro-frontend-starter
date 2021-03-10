@@ -8,7 +8,7 @@
  * API REQUESTS
  */
 
-import Http from '@slintel/s-http';
+import Http from '@qbila/s-http';
 
 export default ({ baseAPIURL, domainName }) => {
   const http = Http({ domainName });

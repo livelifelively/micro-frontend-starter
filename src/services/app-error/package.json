@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/s-app-error",
+  "name": "@qbila/s-app-error",
   "version": "0.1.70",
   "main": "lib/app-error.js",
   "module": "src/app-error.js"

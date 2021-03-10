@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/s-cookies",
+  "name": "@qbila/s-cookies",
   "version": "1.0.52",
   "main": "lib/cookies.js",
   "module": "src/cookies.js",

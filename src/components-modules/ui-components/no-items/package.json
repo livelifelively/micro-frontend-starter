@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/uic-no-items",
+  "name": "@qbila/uic-no-items",
   "version": "0.1.72",
   "main": "lib/no-items.js",
   "module": "src/no-items.js",

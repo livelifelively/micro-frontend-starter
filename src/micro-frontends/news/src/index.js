@@ -4,7 +4,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { ConfigProvider } from 'antd';
 
-import NoItems from '@slintel/uic-no-items';
+import NoItems from '@qbila/uic-no-items';
 
 import NewsFilterTabs from './news-filter-tabs';
 

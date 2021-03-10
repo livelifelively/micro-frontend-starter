@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/uic-starter",
+  "name": "@qbila/uic-starter",
   "version": "0.1.72",
   "main": "lib/uic-starter.js",
   "module": "src/uic-starter.js",

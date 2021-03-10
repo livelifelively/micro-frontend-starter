@@ -2,17 +2,17 @@
 
 ## Folder Structure and Reasoning
 
-We have divided our packages into following. All packages reside in `/src`. Each package has prefix in its name based on its type like, @slintel/prefix-package-name. e.g. @slintel/uim-multi-select
+We have divided our packages into following. All packages reside in `/src`. Each package has prefix in its name based on its type like, @qbila/prefix-package-name. e.g. @qbila/uim-multi-select
 
 1. **components-modules** - common shared components and modules. modules > components. Subdivision is as follows:
-   1. _business-components_: (package name prefix: bc) reusable business packages that were mostly dependent on ui-components/modules. e.g. @slintel/bc-buying-signals, @slintel/bc-company-avatar-info etc.
-   2. _business-modules_: (package name prefix: bm) combination of ui-components/modules and other business-components/modules. Larger than business-components. e.g. @slintel/bm-preferences-drawer, @slintel/bm-share-news-drawer etc.
-   3. _ui-components_: (package name prefix: uic) customised ui-components for our specific use case. e.g. @slintel/uic-drawer, @slintel/uic-icons, @slintel/uic-no-items
-   4. _ui-modules_: (package name prefix: uim) use more than one ui library (e.g. ant design) components or ui-components. e.g. @slintel/uim-multi-select.
-2. **apis** - (package name prefix: api) API packages. Corresponds to each microfrontend. To enable reuse of microfrontend api in any other microfrontend. e.g. @slintel/api-news
-3. **microfrontends** - (package name prefix: _no-prefix_) vertical divisions of the application. uses components and resources to serve a specific business objective. there will be a configuration driven shell application which can be built on the fly and which will be able to pick specific micro-frontends. e.g. @slintel/news
-4. **configs-constants** - (package name prefix: cc) configurations and constants used in the application. To enable one place definitions and reuse. e.g. @slintel/cc-constants
-5. **services** - (package name prefix: s) Functionalties independent of business or ui logics. Used across application. e.g. @slintel/s-http, @slintel/s-local-storage, @slintel/s-cookie, @slintel/s-date-time
+   1. _business-components_: (package name prefix: bc) reusable business packages that were mostly dependent on ui-components/modules. e.g. @qbila/bc-buying-signals, @qbila/bc-company-avatar-info etc.
+   2. _business-modules_: (package name prefix: bm) combination of ui-components/modules and other business-components/modules. Larger than business-components. e.g. @qbila/bm-preferences-drawer, @qbila/bm-share-news-drawer etc.
+   3. _ui-components_: (package name prefix: uic) customised ui-components for our specific use case. e.g. @qbila/uic-drawer, @qbila/uic-icons, @qbila/uic-no-items
+   4. _ui-modules_: (package name prefix: uim) use more than one ui library (e.g. ant design) components or ui-components. e.g. @qbila/uim-multi-select.
+2. **apis** - (package name prefix: api) API packages. Corresponds to each microfrontend. To enable reuse of microfrontend api in any other microfrontend. e.g. @qbila/api-news
+3. **microfrontends** - (package name prefix: _no-prefix_) vertical divisions of the application. uses components and resources to serve a specific business objective. there will be a configuration driven shell application which can be built on the fly and which will be able to pick specific micro-frontends. e.g. @qbila/news
+4. **configs-constants** - (package name prefix: cc) configurations and constants used in the application. To enable one place definitions and reuse. e.g. @qbila/cc-constants
+5. **services** - (package name prefix: s) Functionalties independent of business or ui logics. Used across application. e.g. @qbila/s-http, @qbila/s-local-storage, @qbila/s-cookie, @qbila/s-date-time
 
 ## Getting up and running
 
@@ -42,7 +42,7 @@ We have divided our packages into following. All packages reside in `/src`. Each
 
 ## Common Issues and Fixes
 
-1. You can face this error after creating a new module `Unable to resolve path to module '@slintel/...` to handle this error, you need to add `/* eslint-disable import/no-unresolved */` to the file.
+1. You can face this error after creating a new module `Unable to resolve path to module '@qbila/...` to handle this error, you need to add `/* eslint-disable import/no-unresolved */` to the file.
 
 ## Monorepo with Lerna & Yarn Workspaces
 

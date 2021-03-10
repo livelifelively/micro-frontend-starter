@@ -10,7 +10,7 @@ import { Spin, Button, Input, Form, AutoComplete, Space } from 'antd';
 import Text from 'antd/lib/typography/Text';
 import { MinusCircleOutlined, PlusOutlined } from '@ant-design/icons';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import { OkSignIcon } from '@slintel/uic-icons';
+import { OkSignIcon } from '@qbila/uic-icons';
 
 export default class ShareNewsForm extends Component {
   constructor(props) {

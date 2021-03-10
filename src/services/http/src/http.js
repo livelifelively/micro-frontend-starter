@@ -3,8 +3,8 @@
 import axios from 'axios';
 import { cloneDeep } from 'lodash';
 
-import AppError from '@slintel/s-app-error';
-import Cookies from '@slintel/s-cookies';
+import AppError from '@qbila/s-app-error';
+import Cookies from '@qbila/s-cookies';
 
 export default ({ domainName }) => {
   const { getCookie } = Cookies({ domainName });

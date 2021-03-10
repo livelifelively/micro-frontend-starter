@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/uim-multi-select",
+  "name": "@qbila/uim-multi-select",
   "version": "0.1.72",
   "main": "lib/multi-select.js",
   "module": "src/multi-select.js",

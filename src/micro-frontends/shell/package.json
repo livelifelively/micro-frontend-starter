@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/shell",
+  "name": "@qbila/shell",
   "version": "1.0.52",
   "main": "lib/index.js",
   "module": "src/index.js",
@@ -8,7 +8,7 @@
     "@babel/plugin-proposal-class-properties": "^7.10.4",
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
-    "@slintel/companies-to-target": "^6.0.53",
+    "@qbila/companies-to-target": "^6.0.53",
     "@svgr/webpack": "^5.5.0",
     "antd": "^4.5.4",
     "babel-eslint": "^10.1.0",

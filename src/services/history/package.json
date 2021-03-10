@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/s-history",
+  "name": "@qbila/s-history",
   "version": "0.1.8",
   "main": "lib/history.js",
   "module": "src/history.js"

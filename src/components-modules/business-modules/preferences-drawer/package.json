@@ -1,15 +1,15 @@
 {
-  "name": "@slintel/bm-preferences-drawer",
+  "name": "@qbila/bm-preferences-drawer",
   "version": "0.1.72",
   "main": "lib/preferences-drawer.js",
   "module": "src/preferences-drawer.js",
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
-    "@slintel/api-companies-to-target": "^0.1.70",
-    "@slintel/cc-constants": "^0.1.72",
-    "@slintel/uic-drawer": "^0.1.72",
-    "@slintel/uic-drawer-title": "^0.1.72",
-    "@slintel/uim-multi-select": "^0.1.72"
+    "@qbila/api-companies-to-target": "^0.1.70",
+    "@qbila/cc-constants": "^0.1.72",
+    "@qbila/uic-drawer": "^0.1.72",
+    "@qbila/uic-drawer-title": "^0.1.72",
+    "@qbila/uim-multi-select": "^0.1.72"
   },
   "devDependencies": {
     "antd": "^4.5.4",

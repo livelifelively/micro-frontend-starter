@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/s-date-time",
+  "name": "@qbila/s-date-time",
   "version": "0.1.70",
   "main": "lib/date-time.js",
   "module": "src/date-time.js",

@@ -1,11 +1,11 @@
 {
-  "name": "@slintel/s-notifications",
+  "name": "@qbila/s-notifications",
   "version": "0.1.68",
   "main": "lib/notifications.js",
   "module": "src/notifications.js",
   "dependencies": {
     "@ant-design/icons": "^4.3.0",
-    "@slintel/uic-icons": "^0.1.70"
+    "@qbila/uic-icons": "^0.1.70"
   },
   "devDependencies": {
     "antd": "^4.5.4",

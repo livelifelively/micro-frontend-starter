@@ -4,8 +4,8 @@ import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
 
 // eslint-disable-next-line import/no-unresolved
-// import News from '@slintel/news';
-import CompaniesToTarget from '@slintel/companies-to-target';
+// import News from '@qbila/news';
+import CompaniesToTarget from '@qbila/companies-to-target';
 
 // ReactDOM.render(
 //   <News

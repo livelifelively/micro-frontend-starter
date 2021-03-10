@@ -3,7 +3,7 @@ import React from 'react';
 import { notification } from 'antd';
 import { CloseOutlined, InfoOutlined } from '@ant-design/icons';
 
-import { OkSignIcon } from '@slintel/uic-icons';
+import { OkSignIcon } from '@qbila/uic-icons';
 import Text from 'antd/lib/typography/Text';
 
 export const showError = (errorMessage) => {

@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/uic-icons",
+  "name": "@qbila/uic-icons",
   "version": "0.1.70",
   "main": "lib/icons.js",
   "module": "src/icons.js",

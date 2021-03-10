@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/s-pusher",
+  "name": "@qbila/s-pusher",
   "version": "0.1.68",
   "main": "lib/pusher.js",
   "module": "src/pusher.js",

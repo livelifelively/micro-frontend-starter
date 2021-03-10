@@ -6,14 +6,14 @@ import React, { Component } from 'react';
 import { Spin } from 'antd';
 import PropTypes from 'prop-types';
 
-import Cookies from '@slintel/s-cookies';
+import Cookies from '@qbila/s-cookies';
 
-import PreferencesDrawer from '@slintel/bm-preferences-drawer';
-import ShareNewsDrawer from '@slintel/bm-share-news-drawer';
+import PreferencesDrawer from '@qbila/bm-preferences-drawer';
+import ShareNewsDrawer from '@qbila/bm-share-news-drawer';
 
-import CompaniesToTargetAPI from '@slintel/api-companies-to-target';
-import NewsAPI from '@slintel/api-news';
-import Pusher from '@slintel/s-pusher';
+import CompaniesToTargetAPI from '@qbila/api-companies-to-target';
+import NewsAPI from '@qbila/api-news';
+import Pusher from '@qbila/s-pusher';
 
 import FeedTabs from './feed-tabs';
 import NewsContext from './news-context';

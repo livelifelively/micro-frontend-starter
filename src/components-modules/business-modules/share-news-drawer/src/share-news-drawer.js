@@ -4,8 +4,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-import RightHandSideDrawer from '@slintel/uic-drawer';
-import DrawerTitle from '@slintel/uic-drawer-title';
+import RightHandSideDrawer from '@qbila/uic-drawer';
+import DrawerTitle from '@qbila/uic-drawer-title';
 
 import ShareNewsForm from './share-news-form';
 

@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/bc-sub-categories-dropdown",
+  "name": "@qbila/bc-sub-categories-dropdown",
   "version": "0.1.72",
   "main": "lib/sub-categories-dropdown.js",
   "module": "src/sub-categories-dropdown.js",

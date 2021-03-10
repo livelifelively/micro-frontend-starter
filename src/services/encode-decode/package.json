@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/s-encode-decode",
+  "name": "@qbila/s-encode-decode",
   "version": "0.1.70",
   "main": "lib/encode-decode.js",
   "module": "src/encode-decode.js",

@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/uim-dropdown",
+  "name": "@qbila/uim-dropdown",
   "version": "0.1.12",
   "main": "lib/dropdown.js",
   "module": "src/dropdown.js",

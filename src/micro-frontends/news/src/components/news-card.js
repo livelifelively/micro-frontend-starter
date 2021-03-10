@@ -10,12 +10,12 @@ import { Button, Collapse } from 'antd';
 import reactStringReplace from 'react-string-replace';
 import { cloneDeep } from 'lodash';
 
-import { formatDate } from '@slintel/s-date-time';
+import { formatDate } from '@qbila/s-date-time';
 
-import { SourceLinkIcon, ThemeIcon, ShareLinkIcon } from '@slintel/uic-icons';
+import { SourceLinkIcon, ThemeIcon, ShareLinkIcon } from '@qbila/uic-icons';
 
-import { convertAllEscapes } from '@slintel/s-encode-decode';
-import { NEWS } from '@slintel/cc-constants';
+import { convertAllEscapes } from '@qbila/s-encode-decode';
+import { NEWS } from '@qbila/cc-constants';
 
 import './news-card.scss';
 

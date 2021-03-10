@@ -1,13 +1,13 @@
 {
-  "name": "@slintel/bm-share-news-drawer",
+  "name": "@qbila/bm-share-news-drawer",
   "version": "0.1.58",
   "main": "lib/share-news-drawer.js",
   "module": "src/share-news-drawer.js",
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
-    "@slintel/cc-constants": "^0.1.72",
-    "@slintel/uic-drawer": "^0.1.72",
-    "@slintel/uic-drawer-title": "^0.1.72"
+    "@qbila/cc-constants": "^0.1.72",
+    "@qbila/uic-drawer": "^0.1.72",
+    "@qbila/uic-drawer-title": "^0.1.72"
   },
   "devDependencies": {
     "antd": "^4.5.4",

@@ -9,9 +9,9 @@ import { Row, Col, Checkbox, Spin, Form, Popover } from 'antd';
 import { InfoCircleOutlined } from '@ant-design/icons';
 import { isString, uniqBy, kebabCase, differenceBy, sortBy } from 'lodash';
 
-import { COMPANIES_TO_TARGET } from '@slintel/cc-constants';
+import { COMPANIES_TO_TARGET } from '@qbila/cc-constants';
 
-import CustomMultiSelect from '@slintel/uim-multi-select';
+import CustomMultiSelect from '@qbila/uim-multi-select';
 
 const CheckboxGroup = Checkbox.Group;
 const { COMPANY_SIZES, COMPANY_SECTORS } = COMPANIES_TO_TARGET;

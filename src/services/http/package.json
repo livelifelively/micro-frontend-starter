@@ -1,11 +1,11 @@
 {
-  "name": "@slintel/s-http",
+  "name": "@qbila/s-http",
   "version": "1.0.52",
   "main": "lib/http.js",
   "module": "src/http.js",
   "dependencies": {
-    "@slintel/s-app-error": "^0.1.70",
-    "@slintel/s-cookies": "^1.0.52",
+    "@qbila/s-app-error": "^0.1.70",
+    "@qbila/s-cookies": "^1.0.52",
     "axios": "^0.20.0"
   },
   "devDependencies": {

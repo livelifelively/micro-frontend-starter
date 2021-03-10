@@ -5,8 +5,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { ConfigProvider, List } from 'antd';
 
-import { shareNewsOnEmail } from '@slintel/api-news';
-import InfiniteScrollList from '@slintel/uic-infinite-scroll-list';
+import { shareNewsOnEmail } from '@qbila/api-news';
+import InfiniteScrollList from '@qbila/uic-infinite-scroll-list';
 
 import NewsCard from './components/news-card';
 import EmptyNewsFeed from './components/empty-news-feed';

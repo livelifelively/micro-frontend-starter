@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/s-local-storage",
+  "name": "@qbila/s-local-storage",
   "version": "0.1.70",
   "main": "lib/local-storage.js",
   "module": "src/local-storage.js"

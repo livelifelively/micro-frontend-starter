@@ -1,10 +1,10 @@
 {
-  "name": "@slintel/api-news",
+  "name": "@qbila/api-news",
   "version": "0.1.70",
   "main": "lib/requests.js",
   "module": "src/requests.js",
   "dependencies": {
-    "@slintel/s-http": "^1.0.52"
+    "@qbila/s-http": "^1.0.52"
   },
   "devDependencies": {
     "lodash": "^4.17.20"

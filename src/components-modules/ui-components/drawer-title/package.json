@@ -1,5 +1,5 @@
 {
-  "name": "@slintel/uic-drawer-title",
+  "name": "@qbila/uic-drawer-title",
   "version": "0.1.72",
   "main": "lib/drawer-title.js",
   "module": "src/drawer-title.js",

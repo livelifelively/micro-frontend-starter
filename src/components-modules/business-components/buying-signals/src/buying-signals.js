@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Popover } from 'antd';
 
-import { COMPANIES_TO_TARGET } from '@slintel/cc-constants';
+import { COMPANIES_TO_TARGET } from '@qbila/cc-constants';
 
 import ProgressRing from './progress-ring';
 

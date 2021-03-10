@@ -13,12 +13,12 @@ import { Button, Row, Col, Spin } from 'antd';
 import { cloneDeep, isEqual, isEmpty } from 'lodash';
 import { SettingOutlined } from '@ant-design/icons';
 
-// import SubCategoriesDropdown from '@slintel/bc-sub-categories-dropdown';
-import ThemesDropdown from '@slintel/bc-news-themes-dropdown';
-import TimeRangesDropdown from '@slintel/bc-time-ranges-dropdown';
+// import SubCategoriesDropdown from '@qbila/bc-sub-categories-dropdown';
+import ThemesDropdown from '@qbila/bc-news-themes-dropdown';
+import TimeRangesDropdown from '@qbila/bc-time-ranges-dropdown';
 
-import { COMPANIES_TO_TARGET, NEWS } from '@slintel/cc-constants';
-import { showSuccess, showError } from '@slintel/s-notifications';
+import { COMPANIES_TO_TARGET, NEWS } from '@qbila/cc-constants';
+import { showSuccess, showError } from '@qbila/s-notifications';
 
 // import TimeRanges from './partials/time-ranges-dropdown';
 import NewsFeedList from './news-feed-list';
