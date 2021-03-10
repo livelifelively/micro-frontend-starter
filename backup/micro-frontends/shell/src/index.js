@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// import { SideNavigation, TopNavigation } from '@qbila/navigations';
+import { SideNavigation, TopNavigation } from '@qbila/navigations';
 
 const Shell = () => {
   return (
     <div>
-      {/* <SideNavigation />
-      <TopNavigation /> */}
-      HELLO WORLD
+      <SideNavigation />
+      <TopNavigation />
     </div>
   );
 };
