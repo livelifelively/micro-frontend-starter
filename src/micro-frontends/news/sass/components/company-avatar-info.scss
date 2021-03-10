@@ -1,0 +1,15 @@
+.company-avatar-info {
+  &.ant-card {
+    background-color: transparent;
+    font-size: 12px;
+  }
+  & .ant-card-body {
+    padding: 0px;
+    & .ant-card-meta-detail {
+      line-height: 1.2;
+      color: #929cb7;
+      & .ant-card-meta-title a {
+      }
+    }
+  }
+}

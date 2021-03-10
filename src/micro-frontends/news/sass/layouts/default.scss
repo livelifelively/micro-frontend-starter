@@ -1,0 +1,80 @@
+@import "../abstract/variables";
+
+.container {
+  max-width: 85rem;
+  margin: auto;
+}
+
+body {
+  @media only screen and (max-width: $mq-bp-first) {}
+}
+
+.content {
+  background: $color-white;
+  border-radius: .8rem;
+  &__title {
+    padding: 2.1rem 1.6rem;
+    color: $color-black;
+    border-bottom: 1px solid $color-gray-lightest;
+    font-size: 1.6rem;
+    @media only screen and (max-width: $mq-bp-final) {
+      font-size: 1.4rem;
+    }
+  }
+  &__body {
+    @media only screen and (max-width: $mq-bp-final) {
+      flex-direction: column;
+    }
+
+    &--main {
+      width: 100%;
+      padding: 1.6rem;
+
+      @media only screen and (max-width: $mq-bp-final) {
+        max-width: none;
+      }
+    }
+
+  }
+  @media only screen and (max-width: $mq-bp-final) {
+    margin: 0 -1.6rem;
+  }
+}
+
+.header {
+  margin-top: 4.8rem;
+  margin-bottom: 1.5rem;
+
+  @media only screen and (max-width: $mq-bp-first) {
+    margin-top: 4.0rem;
+  }
+
+  .logo {
+    padding-bottom: 1.3rem;
+    &.size--default {
+      font-size: 1rem;
+    }
+    &.size--medium {
+      font-size: 1.6rem;
+    }
+    .icon--slintel-logo-shape {
+      display: inline-block;
+      height: 3rem;
+      width: 15rem;
+    }
+    .icon--slintel-logo-text {
+      display: inline-block;
+      height: 3rem;
+      width: 15rem;
+    }
+  }
+}
+
+.action__buttons {
+  button {
+    margin-right: .8rem;
+  }
+  button:last-child {
+    margin-right: 0;
+  }
+}

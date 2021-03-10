@@ -1,0 +1,15 @@
+{
+  "packages": [
+    "src/components-modules/ui-components/*",
+    "src/components-modules/ui-modules/*",
+    "src/components-modules/business-components/*",
+    "src/components-modules/business-modules/*",
+    "src/micro-frontends/*",
+    "src/apis/*",
+    "src/configs-constants/*",
+    "src/services/*"
+  ],
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "version": "independent"
+}

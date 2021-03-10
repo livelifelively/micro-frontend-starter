@@ -1,0 +1,20 @@
+{
+  "name": "@slintel/api-lists",
+  "version": "0.1.12",
+  "main": "lib/requests.js",
+  "module": "src/requests.js",
+  "dependencies": {
+    "@slintel/s-http": "^1.0.52"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.20"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

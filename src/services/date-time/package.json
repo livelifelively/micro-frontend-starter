@@ -1,0 +1,9 @@
+{
+  "name": "@slintel/s-date-time",
+  "version": "0.1.70",
+  "main": "lib/date-time.js",
+  "module": "src/date-time.js",
+  "devDependencies": {
+    "moment": "^2.27.0"
+  }
+}

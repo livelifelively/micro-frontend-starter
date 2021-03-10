@@ -1,0 +1,27 @@
+{
+  "name": "@slintel/bc-companies-list",
+  "version": "0.1.73",
+  "main": "lib/companies-list.js",
+  "module": "src/companies-list.js",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@slintel/bc-buying-signals": "^0.1.73",
+    "@slintel/bc-company-avatar-info": "^0.1.72",
+    "@slintel/uic-infinite-scroll-table": "^0.1.72",
+    "@slintel/uic-no-items": "^0.1.72"
+  },
+  "devDependencies": {
+    "antd": "^4.5.4",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

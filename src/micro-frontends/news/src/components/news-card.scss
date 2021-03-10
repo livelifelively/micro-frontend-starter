@@ -1,0 +1,109 @@
+.news-card {
+  position: relative;
+  background: #fff;
+  width: 100%;
+  // padding: 10px;
+  // border-bottom: 1px solid #dfe7f0 !important;
+  .card-action-item-block {
+    display: flex;
+    visibility: hidden;
+    padding-right: 10px;
+    .card-action-items {
+      margin: 0 5px;
+      background: #e6f4ff 0% 0% no-repeat padding-box;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      fill: #5e81f4;
+      opacity: 0.7;
+      &:hover {
+        opacity: 1;
+      }
+    }
+  }
+  .ant-collapse-extra {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  &:hover {
+    box-shadow: 0px 10px 10px #5e81f41a;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    .card-action-item-block {
+      visibility: visible;
+    }
+  }
+  .news-card-header {
+    display: flex;
+    color: #29275f;
+    align-items: center;
+    .news-card-header__image {
+      .ant-avatar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .news-card-header__header {
+      margin: 0 10px;
+      width: 100%;
+    }
+    .small-heading {
+      font-weight: bold;
+      font-size: 12px;
+      // letter-spacing: 1.2px;
+      margin-bottom: 5px;
+      // text-transform: uppercase;
+    }
+    .main-title {
+      font-size: 14px;
+      font-weight: 500;
+      width: 90%;
+      color: #29275f;
+    }
+    .small-text {
+      font-size: 12px;
+      font-weight: normal;
+      color: #929cb7;
+    }
+  }
+}
+
+svg {
+  path {
+    fill: inherit !important;
+  }
+}
+
+// scrollbar css start
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 10px;
+}
+// scrollbar css ends
+
+// .news-feed-header{
+//  display: flex;
+//  .header-block{
+//    display: flex;
+//    flex-direction: column;
+//    margin-left: 10px;
+//  }
+//  .small-heading {
+//    color:blue;
+//  }
+//  .main-title {
+
+//  }
+//  .small-text {
+//    font-size: 12px;
+//  }
+// }

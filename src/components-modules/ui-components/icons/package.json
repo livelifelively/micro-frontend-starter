@@ -1,0 +1,21 @@
+{
+  "name": "@slintel/uic-icons",
+  "version": "0.1.70",
+  "main": "lib/icons.js",
+  "module": "src/icons.js",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2"
+  },
+  "devDependencies": {
+    "prop-types": "15.7.2",
+    "react": "^16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

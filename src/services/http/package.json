@@ -1,0 +1,17 @@
+{
+  "name": "@slintel/s-http",
+  "version": "1.0.52",
+  "main": "lib/http.js",
+  "module": "src/http.js",
+  "dependencies": {
+    "@slintel/s-app-error": "^0.1.70",
+    "@slintel/s-cookies": "^1.0.52",
+    "axios": "^0.20.0"
+  },
+  "devDependencies": {
+    "lodash": "^4.17.20"
+  },
+  "peerDependencies": {
+    "lodash": "*"
+  }
+}

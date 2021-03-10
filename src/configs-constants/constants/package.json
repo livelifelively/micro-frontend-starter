@@ -1,0 +1,6 @@
+{
+  "name": "@slintel/cc-constants",
+  "version": "0.1.72",
+  "main": "lib/constants.js",
+  "module": "src/constants.js"
+}

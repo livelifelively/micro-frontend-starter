@@ -1,0 +1,311 @@
+@import '../abstract/variables';
+
+.companies-to-target {
+  &__brief {
+    color: #929cb7;
+    padding: 0 15px;
+    font-size: 1.3rem;
+    border-bottom: 1px solid #dfe7f0;
+  }
+  &__filters {
+    padding: 10px 15px;
+  }
+}
+
+.companies-list {
+  & .ant-table-thead > tr > th {
+    background-color: transparent;
+  }
+  &__score {
+    font-size: 22px;
+    color: #353279;
+    &-change {
+      font-size: 12px;
+      &--positive {
+        color: #6dc194;
+      }
+      &--negative {
+        color: #eb949e;
+      }
+      &--same {
+        color: #b1b1b1;
+      }
+    }
+    padding: 10px 20px;
+    background: #f6f6f6;
+    display: inline-block;
+    border-radius: 8px;
+    text-align: center;
+  }
+  &__buying-signals {
+  }
+  &__action {
+    &--view-more {
+    }
+    &--view-leads {
+      margin-right: 20px;
+      visibility: hidden;
+      border-radius: 5px;
+    }
+  }
+  & .ant-table-tbody {
+    & > .ant-table-row {
+      &:hover {
+        & > td {
+          background: #fffff5;
+        }
+      }
+    }
+  }
+  & .ant-table-row {
+    &:hover {
+      & .companies-list__action {
+        &--view-leads {
+          visibility: visible;
+        }
+      }
+    }
+  }
+}
+
+.subcategories-drop-down {
+  border-left-width: 0px;
+}
+
+.custom-multi-select {
+  & .ant-select-show-search.ant-select-multiple .ant-select-selector {
+    width: 400px;
+  }
+  & .ant-select-multiple {
+    & .ant-select-selection-item {
+      display: none;
+    }
+  }
+  &__display-area {
+    margin-top: 10px;
+    margin-left: -5px;
+    & .ant-tag {
+      padding: 5px 12px;
+      border-radius: 5px;
+      background: #fff;
+      border: 1px solid #5e81f4;
+      color: #5e81f4;
+      margin: 7px;
+      &-close-icon {
+        color: #5e81f4;
+      }
+    }
+  }
+}
+
+.drawer-header {
+  display: flex;
+  justify-content: space-between;
+  &__title {
+    padding: 7px 0px;
+  }
+  &__actions {
+    & button {
+      margin-left: 10px;
+    }
+  }
+}
+
+.preferences-drawer__form-field {
+  margin-bottom: 20px;
+  color: #929cb7;
+}
+
+.company-info-details__website {
+  margin-bottom: 5px;
+}
+
+.propensity-brief {
+  width: 250px;
+  list-style-type: circle;
+  list-style-position: outside;
+  margin-left: 15px;
+  margin-bottom: 0;
+  padding: 5px 0px;
+  & > li {
+    & > span {
+      color: #f64b53;
+    }
+  }
+}
+
+.progress-ring__circle {
+  transition: 0.35s stroke-dashoffset;
+  // axis compensation
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+}
+
+.buying-signal-strength {
+  position: relative;
+  display: inline-block;
+}
+
+.empty-state {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 90px;
+    margin-bottom: 15px;
+  }
+}
+
+.linked-title {
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #5753b5;
+  .ant-checkbox {
+    margin-right: 5px;
+    margin-top: 5px;
+  }
+  .ant-checkbox-wrapper {
+    font-size: 14px;
+    color: #5753b5;
+    display: flex;
+    .ant-checkbox-checked::after,
+    .ant-checkbox-input {
+      height: 20px;
+    }
+  }
+}
+
+.filters-selecter-unit__filter-name {
+  text-transform: capitalize;
+}
+
+.filters-selecter-unit {
+  padding: 10px 0px;
+}
+
+.filters-selecter-unit__filter-details {
+  font-size: 12px;
+}
+
+.filters-selecter-unit__filter-details-unit {
+  line-height: 1;
+  padding-right: 5px;
+  b {
+    display: inline-block;
+    padding-right: 5px;
+    border-left: 1px solid;
+    padding-left: 5px;
+  }
+  &:first-child b {
+    border-left-width: 0px;
+    padding-left: 0px;
+  }
+  span {
+    display: inline-block;
+  }
+}
+
+.filters-selecter-unit__filter-details-unit--value {
+  margin-right: 3px;
+}
+
+.filters-selecter-unit__filter-details-unit--value:last-child {
+  margin-right: 0px;
+}
+
+.companies-to-target-filter-tabs {
+  min-height: 650px;
+  .ant-tabs-nav {
+    background: #f8faff;
+    margin-bottom: 0px;
+    .ant-tabs-nav-more {
+      .anticon-ellipsis {
+        padding: 8px;
+        background: #e6f4ff;
+      }
+    }
+  }
+  .ant-tabs-nav-wrap {
+    padding-left: 15px;
+  }
+  .ant-tabs-tab {
+    color: #929cb7;
+  }
+}
+
+.companies-to-target__brief {
+  .active-filter-overview__filter-pills {
+    &--collapsed {
+      height: 35px;
+      width: 100vw;
+      overflow: hidden;
+    }
+    &--expanded {
+      min-height: 35px;
+    }
+  }
+}
+
+.active-filter-overview {
+  overflow: hidden;
+  padding: 15px 20px 10px 0px;
+  border-right: 1px solid #dfe7f0;
+  &__title {
+    color: #29275f;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &__info-string {
+    margin-bottom: 15px;
+  }
+  .ant-btn-link {
+    height: auto;
+    line-height: 1;
+    font-size: inherit;
+  }
+}
+
+.subcategory-select {
+  background: #fff;
+  padding: 15px 20px 10px 25px;
+  // border-bottom: 1px solid #dfe7f0;
+  &__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #29275f;
+  }
+  &__sub-title {
+    margin-bottom: 10px;
+  }
+  &::before {
+    content: '&';
+    position: absolute;
+    left: -12px;
+    top: 45%;
+    background: #fff;
+    border: 1px solid #dfe7f0;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+}
+
+.ant-tabs-dropdown-menu .companies-to-target__tab {
+  max-width: 250px;
+  white-space: normal;
+}
+
+.ant-tabs-tab .companies-to-target__tab {
+  max-width: 175px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ant-popover {
+  z-index: 1050;
+}

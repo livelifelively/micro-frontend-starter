@@ -1,0 +1,23 @@
+{
+  "name": "@slintel/bc-company-avatar-info",
+  "version": "0.1.72",
+  "main": "lib/company-avatar-info.js",
+  "module": "src/company-avatar-info.js",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2"
+  },
+  "devDependencies": {
+    "antd": "^4.5.4",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

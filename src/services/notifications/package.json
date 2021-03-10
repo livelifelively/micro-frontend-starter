@@ -1,0 +1,24 @@
+{
+  "name": "@slintel/s-notifications",
+  "version": "0.1.68",
+  "main": "lib/notifications.js",
+  "module": "src/notifications.js",
+  "dependencies": {
+    "@ant-design/icons": "^4.3.0",
+    "@slintel/uic-icons": "^0.1.70"
+  },
+  "devDependencies": {
+    "antd": "^4.5.4",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

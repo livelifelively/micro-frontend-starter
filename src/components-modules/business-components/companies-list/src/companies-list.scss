@@ -1,0 +1,35 @@
+.companies-list {
+  .ant-table-pagination {
+    .ant-pagination-total-text {
+      color: #929cb7;
+      height: 35px;
+      line-height: 35px;
+    }
+    .ant-pagination-item,
+    .ant-pagination-jump-next,
+    .ant-pagination-jump-prev {
+      display: none;
+    }
+    .ant-pagination-next,
+    .ant-pagination-prev {
+      height: 35px;
+      line-height: 35px;
+      svg {
+        fill: #929cb7;
+      }
+      .anticon-right {
+        border: 1px solid #dfe7f0 !important;
+        padding: 10px;
+        border-radius: 0px 5px 5px 0px;
+      }
+      .anticon-left {
+        border: 1px solid #dfe7f0 !important;
+        padding: 10px;
+        border-radius: 5px 0px 0px 5px;
+      }
+    }
+    .ant-pagination-next {
+      margin-left: -3px;
+    }
+  }
+}

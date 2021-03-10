@@ -1,0 +1,38 @@
+{
+  "name": "@slintel/news",
+  "version": "1.0.52",
+  "main": "lib/index.js",
+  "module": "src/index.js",
+  "dependencies": {
+    "@slintel/api-news": "^0.1.70",
+    "@slintel/bc-news-themes-dropdown": "^0.1.72",
+    "@slintel/bc-sub-categories-dropdown": "^0.1.72",
+    "@slintel/bc-time-ranges-dropdown": "^0.1.72",
+    "@slintel/bm-preferences-drawer": "^0.1.72",
+    "@slintel/cc-constants": "^0.1.72",
+    "@slintel/s-cookies": "^1.0.52",
+    "@slintel/s-date-time": "^0.1.70",
+    "@slintel/s-encode-decode": "^0.1.70",
+    "@slintel/uic-icons": "^0.1.70",
+    "@slintel/uic-infinite-scroll-list": "^0.1.71",
+    "@slintel/uic-no-items": "^0.1.72",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-string-replace": "^0.4.4"
+  },
+  "devDependencies": {
+    "antd": "^4.5.4",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "16.13.1",
+    "react-string-replace": "^0.4.4"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

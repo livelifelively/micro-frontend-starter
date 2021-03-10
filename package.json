@@ -1,0 +1,99 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "src/components-modules/ui-components/*",
+    "src/components-modules/ui-modules/*",
+    "src/components-modules/business-components/*",
+    "src/components-modules/business-modules/*",
+    "src/micro-frontends/*",
+    "src/apis/*",
+    "src/configs-constants/*",
+    "src/services/*"
+  ],
+  "engines": {
+    "node": ">=10.15.0",
+    "yarn": ">=1.5.1"
+  },
+  "scripts": {
+    "bootstrap": "lerna bootstrap --use-workspaces",
+    "build-testing": "webpack --config build-utils/webpack.config.js --env.env=${BUILD_ENV} --entry ${ENTRY} --output-path ${OUTPUT}",
+    "build": "lerna exec --parallel -- babel --root-mode upward src -d lib --ignore **/*.stories.js,**/*.spec.js",
+    "coverage": "jest --coverage",
+    "deploy-storybook": "storybook-to-ghpages",
+    "dev": "start-storybook -p 5555",
+    "lint:js": "eslint . --ext .js --ignore-pattern lib --ignore-pattern node_modules",
+    "lint:styles": "stylelint './src/**/*.js'",
+    "lint": "yarn lint:js && yarn lint:styles",
+    "now-build": "build-storybook -c .storybook -o public",
+    "prettier": "prettier --write \"**/*.{js,json,md,yml}\"",
+    "lerna-publish": "lerna publish --contents lib",
+    "lerna-publish-force": "lerna publish --contents lib --force-publish=*",
+    "test": "yarn build && yarn lint && yarn coverage",
+    "unit": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,json,md,yml}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "7.11.6",
+    "@babel/core": "7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "7.11.5",
+    "@babel/preset-react": "7.10.4",
+    "@storybook/addon-actions": "^6.0.28",
+    "@storybook/addon-docs": "6.0.21",
+    "@storybook/preset-ant-design": "^0.0.1",
+    "@storybook/preset-create-react-app": "3.1.4",
+    "@storybook/react": "6.0.21",
+    "@storybook/storybook-deployer": "2.8.6",
+    "@svgr/webpack": "^5.5.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "26.3.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-styled-components": "1.11.1",
+    "css-loader": "^5.0.1",
+    "eslint": "7.8.1",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-get-off-my-lawn": "5.0.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "husky": "4.3.0",
+    "jest": "26.4.2",
+    "jest-haste-map": "26.3.0",
+    "jest-resolve": "26.4.0",
+    "jest-styled-components": "7.0.3",
+    "lerna": "3.22.1",
+    "lint-staged": "10.3.0",
+    "prettier": "2.1.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-test-renderer": "16.13.1",
+    "sass-loader": "^10.1.0",
+    "storybook-addon-react-docgen": "^1.2.42",
+    "style-loader": "^2.0.0",
+    "styled-components": "5.2.0",
+    "stylelint": "13.7.0",
+    "stylelint-config-get-off-my-lawn": "2.0.0",
+    "stylelint-config-styled-components": "0.1.1",
+    "stylelint-processor-styled-components": "1.10.0",
+    "webpack": "^4.43.0",
+    "webpack-bundle-analyzer": "^3.8.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9",
+    "webpack-visualizer-plugin": "^0.1.11"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@slintel/uic-no-items",
+  "version": "0.1.72",
+  "main": "lib/no-items.js",
+  "module": "src/no-items.js",
+  "devDependencies": {
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "@slintel/bc-buying-signals",
+  "version": "0.1.73",
+  "main": "lib/buying-signals.js",
+  "module": "src/buying-signals.js",
+  "dependencies": {
+    "@slintel/cc-constants": "^0.1.72"
+  },
+  "devDependencies": {
+    "antd": "^4.5.4",
+    "prop-types": "15.7.2",
+    "react": "16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

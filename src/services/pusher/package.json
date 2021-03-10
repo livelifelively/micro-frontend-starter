@@ -1,0 +1,9 @@
+{
+  "name": "@slintel/s-pusher",
+  "version": "0.1.68",
+  "main": "lib/pusher.js",
+  "module": "src/pusher.js",
+  "dependencies": {
+    "pusher-js": "^7.0.2"
+  }
+}

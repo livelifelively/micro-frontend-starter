@@ -1,0 +1,20 @@
+{
+  "name": "@slintel/bc-sub-categories-dropdown",
+  "version": "0.1.72",
+  "main": "lib/sub-categories-dropdown.js",
+  "module": "src/sub-categories-dropdown.js",
+  "devDependencies": {
+    "antd": "^4.5.4",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

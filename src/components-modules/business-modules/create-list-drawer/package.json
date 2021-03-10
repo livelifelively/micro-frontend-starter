@@ -1,0 +1,31 @@
+{
+  "name": "@slintel/bm-create-list-drawer",
+  "version": "0.1.12",
+  "main": "lib/create-list-drawer.js",
+  "module": "src/create-list-drawer.js",
+  "dependencies": {
+    "@ant-design/icons": "^4.2.2",
+    "@slintel/api-lists": "^0.1.12",
+    "@slintel/cc-constants": "^0.1.72",
+    "@slintel/s-notifications": "^0.1.68",
+    "@slintel/uic-drawer": "^0.1.72",
+    "@slintel/uic-drawer-title": "^0.1.72",
+    "@slintel/uic-icons": "^0.1.70",
+    "@slintel/uim-dropdown": "^0.1.12"
+  },
+  "devDependencies": {
+    "antd": "^4.5.4",
+    "lodash": "^4.17.20",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "peerDependencies": {
+    "antd": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}

@@ -1,0 +1,46 @@
+.buying-signal {
+  display: inline-block;
+  position: relative;
+  span {
+    display: inline-block;
+  }
+  &__strength,
+  &__need-more-data {
+    padding: 8px;
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+  }
+  &--disabled {
+    background: #f2f2f2;
+  }
+  &--strength {
+    background: #fafafb;
+  }
+  &__need-more-data {
+    cursor: pointer;
+    background-color: #eaf2fa;
+    &--wrapper {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  &__add-preferences-icon {
+    background-color: #5e81f4;
+    color: #fff;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 18px;
+    position: absolute;
+    bottom: -5px;
+    right: 0px;
+    line-height: 18px;
+  }
+}
