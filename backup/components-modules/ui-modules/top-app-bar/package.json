@@ -1,0 +1,22 @@
+{
+  "name": "@qbila/uim-top-app-bar",
+  "version": "0.1.0",
+  "main": "lib/top-app-bar.js",
+  "module": "src/top-app-bar.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "lodash": "^4.17.20",
+    "react": "^16.13.1"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "*",
+    "@material-ui/icons": "*",
+    "lodash": "*",
+    "moment": "*",
+    "prop-types": "*",
+    "react": "*",
+    "react-dom": "*"
+  }
+}
