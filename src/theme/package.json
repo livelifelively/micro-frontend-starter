@@ -1,13 +1,14 @@
 {
-  "name": "@qbila/uic-button",
+  "name": "@qbila/theme",
   "version": "0.1.0",
-  "main": "lib/index.js",
-  "module": "src/index.js",
+  "main": "lib/theme.js",
+  "module": "src/theme.js",
   "devDependencies": {
     "@material-ui/core": "^4.11.3",
     "prop-types": "15.7.2",
     "react": "16.14.0",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "theme": "1.0.0"
   },
   "peerDependencies": {
     "@material-ui/core": "*",
