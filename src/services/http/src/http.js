@@ -35,14 +35,14 @@ export default ({ domainName }) => {
     return newConfig;
   }
 
-  function throwIfHasError() {
+  function throwIfHasError(response) {
     // TODO: standardize returned packet's structure
-    // if (response.data.statusCode !== 'SUCCESS') {
-    //   throw new AppError({
-    //     name: 'HttpError',
-    //     message: 'http service errored',
-    //   });
-    // }
+    if (response.data.statusCode !== 'SUCCESS') {
+      throw new AppError({
+        name: 'HttpError',
+        message: 'http service errored',
+      });
+    }
   }
 
   /**
@@ -52,6 +52,7 @@ export default ({ domainName }) => {
   http.interceptors.request.use(
     (config) => {
       const user = getCookie('userToken');
+
       let newConfig = cloneDeep(config);
 
       if (user && user.token) {
