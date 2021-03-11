@@ -7,7 +7,8 @@
     "src/micro-frontends/*",
     "src/apis/*",
     "src/configs-constants/*",
-    "src/services/*"
+    "src/services/*",
+    "src/theme/*"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,

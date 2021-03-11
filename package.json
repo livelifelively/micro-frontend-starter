@@ -9,7 +9,8 @@
     "src/micro-frontends/*",
     "src/apis/*",
     "src/configs-constants/*",
-    "src/services/*"
+    "src/services/*",
+    "src/theme/*"
   ],
   "engines": {
     "node": ">=10.15.0",

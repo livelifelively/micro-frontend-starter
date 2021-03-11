@@ -1,8 +1,8 @@
 {
   "name": "@qbila/uic-button",
   "version": "0.1.0",
-  "main": "lib/index.js",
-  "module": "src/index.js",
+  "main": "lib/button.js",
+  "module": "src/button.js",
   "devDependencies": {
     "@material-ui/core": "^4.11.3",
     "prop-types": "15.7.2",
