@@ -5,7 +5,7 @@ module.exports = {
   mode: 'production',
   plugins: [
     new Dotenv({
-      path: './.env.production',
+      path: './.production.env',
     }),
   ],
   devServer: {
