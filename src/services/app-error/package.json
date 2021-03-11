@@ -1,6 +1,6 @@
 {
   "name": "@qbila/s-app-error",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/app-error.js",
   "module": "src/app-error.js"
 }
